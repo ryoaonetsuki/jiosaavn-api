@@ -4,12 +4,11 @@ An API project for retrieving and working with JioSaavn music data.
 
 ## Overview
 
-The repository provides an API-oriented implementation for accessing music metadata and related JioSaavn data.
+The repository provides an API-oriented implementation for accessing music metadata and related service data.
 
 ## Requirements
 
-- Node.js or the runtime specified by the repository files
-- The dependencies listed by the project configuration
+Use the runtime and dependencies specified by the repository's package configuration and lockfile.
 
 ## Installation
 
@@ -18,16 +17,16 @@ git clone https://github.com/ryoaonetsuki/jiosaavn-api.git
 cd jiosaavn-api
 ```
 
-Install dependencies using the package manager and lockfile included in the repository.
+Install dependencies with the package manager used by the project.
 
 ## Run
 
-Use the project's documented entry point or package scripts to start the API locally.
+Use the entry point or package script defined in the repository to start the API locally.
 
 ## API Usage
 
-Inspect the route definitions or API documentation in the repository for the current endpoints and response formats. Test the service locally before exposing it publicly.
+Check the route definitions and API documentation in the source for the current endpoints and response formats.
 
 ## Notes
 
-This project depends on an external music service. Availability and response formats can change independently of this repository.
+The project depends on an external music service, so upstream availability and response formats may change.
